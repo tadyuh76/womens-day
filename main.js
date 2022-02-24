@@ -51,7 +51,7 @@ const boys = [
 },
   {
     name: "Anh Kiệt",
-    image: "anhkiet.jpeg"
+    image: "anhkiet.jpg"
 },
   {
     name: "Quang Minh",

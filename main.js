@@ -1,5 +1,4 @@
-const music = new Audio('./assets/ngaydautien.mp3')
-music.play()
+
 
 const boys = [
   {
@@ -100,6 +99,11 @@ const boyImage = document.querySelector('.boy-image')
 let index = 0;
 
 const popTheBoy = () => {
+  if (index === 0) {
+    const music = document.querySelector("audio")
+    music.play()
+  } 
+  
   if (index >= 23) {
     boyNameSpan.innerHTML = "Hết rồiii. Nhớ like, share và subscribe cho tụi con trai mình nha :D"
     boyImage.src = `./assets/end.jpg`

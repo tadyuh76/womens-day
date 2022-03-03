@@ -1,5 +1,3 @@
-
-
 const boys = [
   {
     name: "Ngọc Bảo",
@@ -19,7 +17,7 @@ const boys = [
 },
   {
     name: "Công Danh",
-    image: "congdanh.jpeg"
+    image: "congdanh.jpg"
 },
   {
     name: "Nhật Đông",
@@ -31,7 +29,7 @@ const boys = [
 },
   {
     name: "Xuân Duy",
-    image: "xuanduy.jpeg"
+    image: "xuanduy.png"
 },
   {
     name: "Đạt Huy",
@@ -39,7 +37,7 @@ const boys = [
 },
   {
     name: "Huy Hoàng",
-    image: "huyhoang.jpeg"
+    image: "huyhoang.jpg"
 },
   {
     name: "Minh Khang",
@@ -99,11 +97,6 @@ const boyImage = document.querySelector('.boy-image')
 let index = 0;
 
 const popTheBoy = () => {
-  if (index === 0) {
-    const music = document.querySelector("audio")
-    music.play()
-  } 
-  
   if (index >= 23) {
     boyNameSpan.innerHTML = "Hết rồiii. Nhớ like, share và subscribe cho tụi con trai mình nha :D"
     boyImage.src = `./assets/end.jpg`

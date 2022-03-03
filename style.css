@@ -7,7 +7,7 @@
 }
 
 .title {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
   text-align: center;
   color: white;
@@ -15,7 +15,7 @@
 }
 
 .bg {
-  background: url("https://thecutestblogontheblock.com/wp-content/uploads/2011/10/AntiqueFloralbackgroundcopy.jpg") center no-repeat;
+  background: url("https://thecutestblogontheblock.com/wp-content/uploads/2011/10/AntiqueFloralbackgroundcopy.jpg") center;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -29,8 +29,8 @@
   border-radius: 32px;
   margin: 32px 0;
   padding: 16px 16px 0;
-  height: 40vh;
-  width: 40vh;
+  width: 45vh;
+  height: 45vh;
   max-width: 720px;
   display: flex;
   flex-direction: column;
@@ -38,12 +38,12 @@
   background-color: #fbeee0;
   border: 2px solid #422800;
   box-shadow: #422800 12px 12px 0 0;
-  
+
 }
 
 .boy-image {
   width: 100%;
-  aspect-ratio: 3/2;
+  aspect-ratio: 4/3;
   border-radius: 16px;
   object-fit: cover;
 }
@@ -59,7 +59,7 @@
   background-color: #fbeee0;
   border: 2px solid #422800;
   border-radius: 16px;
-  box-shadow: #422800 12px 12px 0 0;
+  box-shadow: #422800 8px 8px 0 0;
   color: #422800;
   cursor: pointer;
   display: inline-block;
